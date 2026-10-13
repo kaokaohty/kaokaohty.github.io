@@ -7,7 +7,6 @@ website:
   title: "Tianya HOU"
   site-url: https://github.com/kaokaohty
   repo-url: https://github.com/kaokaohty/kaokaohty.github.io
-  repo-actions: [edit, issue]
   
   page-footer:
     left: |
