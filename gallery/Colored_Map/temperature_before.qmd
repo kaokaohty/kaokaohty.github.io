@@ -1,0 +1,13 @@
+---
+title: temperature_before
+author: Tianya HOU
+image: images/Colored_Map/temperature_before.gif
+description: Data Viz Work
+categories: [Colored Map]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](images/Colored_Map/temperature_before.gif)
