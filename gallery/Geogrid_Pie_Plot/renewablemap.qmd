@@ -1,0 +1,13 @@
+---
+title: renewablemap
+author: Tianya HOU
+image: ../../images/gallery/Geogrid_Pie_Plot/renewablemap.png
+description: Data Viz Work
+categories: [Geogrid Pie Plot]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/gallery/Geogrid_Pie_Plot/renewablemap.png)

@@ -2,7 +2,19 @@
   {
     "listing": "/gallery.html",
     "items": [
-      "/gallery/Automative_Colored_Map/animatedtempmap.html"
+      "/gallery/Automative_Colored_Map/animatedtempmap.html",
+      "/gallery/Colored_Map/regionmap.html",
+      "/gallery/Colored_Map/sealevel1993.html",
+      "/gallery/Colored_Map/sealevel2023.html",
+      "/gallery/Colored_Map/sealeveldisappear.html",
+      "/gallery/Colored_Map/temperature_before.html",
+      "/gallery/Colored_Map/temperature_now.html",
+      "/gallery/Geogrid_Pie_Plot/DRRmap.html",
+      "/gallery/Geogrid_Pie_Plot/renewablemap.html",
+      "/gallery/Plot_using_ggbump/regionmap10km.html",
+      "/gallery/Plot_using_ggbump/regionmap1km.html",
+      "/gallery/Plot_using_ggbump/regionmap5km.html",
+      "/gallery/Scatterplot/vulnerabilityvsreadiness.html"
     ]
   }
 ]

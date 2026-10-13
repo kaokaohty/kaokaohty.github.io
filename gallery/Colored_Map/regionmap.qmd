@@ -1,0 +1,13 @@
+---
+title: regionmap
+author: Tianya HOU
+image: ../../images/gallery/Colored_Map/regionmap.png
+description: Data Viz Work
+categories: [Colored Map]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/gallery/Colored_Map/regionmap.png)

@@ -1,0 +1,13 @@
+---
+title: regionmap10km
+author: Tianya HOU
+image: ../../images/gallery/Plot_using_ggbump/regionmap10km.png
+description: Data Viz Work
+categories: [Plot using ggbump]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/gallery/Plot_using_ggbump/regionmap10km.png)

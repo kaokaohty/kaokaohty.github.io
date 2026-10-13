@@ -1,0 +1,13 @@
+---
+title: sealevel2023
+author: Tianya HOU
+image: ../../images/gallery/Colored_Map/sealevel2023.png
+description: Data Viz Work
+categories: [Colored Map]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/gallery/Colored_Map/sealevel2023.png)
