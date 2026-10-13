@@ -21,12 +21,16 @@ about:
 ::: {#hero-heading}
 
 I’m a Data Scientist & Visualization Specialist who turns complex, high-dimensional data into clear, actionable stories. I build end-to-end predictive models and interactive data visualizations using [Matlab / R / SAS] and [gglot2 / Quarto] to help people make confident, data-driven decisions.
+I’m a Data Scientist & Visualization Specialist who turns complex, high-dimensional data into clear, actionable stories. I build end-to-end predictive models and interactive data visualizations using [Matlab / R / SAS] and [gglot2 / Quarto] to help people make confident, data-driven decisions.
 
 ## Background
 
 - 2025 - Present:  Freelance Data Scientist & Visualization Specialist
 - May 2024 - Oct 2024: Visiting Scholar, Paris Lodron University of Salzburg, Austria
 - 2018 - Present: Data Scientist, North China Electric Power Company, China
+- Sep 2014- Mar 2015: Eurasia-Pacific Uninet PhD Program, Vienna University of Economics and Business, Austria
+- 2011-2017: PhD in Building and Real Estate, The Hong Kong Polytechnic University, China, specializing in Applied Data Science in Urban Analytics and Sustainable Analysis
+- 2007-2009: Master in Industrial Engineering, Ajou University, Korea, majoring in Data Science.
 - Sep 2014- Mar 2015: Eurasia-Pacific Uninet PhD Program, Vienna University of Economics and Business, Austria
 - 2011-2017: PhD in Building and Real Estate, The Hong Kong Polytechnic University, China, specializing in Applied Data Science in Urban Analytics and Sustainable Analysis
 - 2007-2009: Master in Industrial Engineering, Ajou University, Korea, majoring in Data Science.
