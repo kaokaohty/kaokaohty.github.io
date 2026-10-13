@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Books – Tianya HOU</title>
+<title>Data Viz Gallery – Tianya HOU</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,7 +75,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -107,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.qmd"> 
+    <a class="nav-link active" href="./gallery.html" aria-current="page"> 
 <span class="menu-text">Data Viz Gallery</span></a>
   </li>  
   <li class="nav-item">
@@ -122,31 +182,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#stata" id="toc-stata" class="nav-link active" data-scroll-target="#stata">Stata</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
-  <li><a href="#quarto-book" id="toc-quarto-book" class="nav-link" data-scroll-target="#quarto-book">Quarto book</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/kaokaohty/kaokaohty.github.io/edit/main/books.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/kaokaohty/kaokaohty.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QXV0b21hdGl2ZSUyMENvbG9yZWQlMjBNYXA=">Automative Colored Map <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Books</h1>
+<h1 class="title">Data Viz Gallery</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -158,51 +210,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><a href="https://www.lianxh.cn">主页</a> || <a href="https://www.lianxh.cn/details/17.html">课程</a> || <a href="https://lianxh-class.cn/">视频</a> || <a href="https://www.lianxh.cn/blogs/all.html">推文</a> || <a href="https://www.lianxh.cn/share.html">资料</a></p>
-</blockquote>
-<p>这些书稿是由我平时上课时的讲义整理而成的，尚未完稿。大家在阅读过程中，若发现错误或表述不妥之处，烦请邮件告知我，以便完善。我的邮箱：<a href="mailto:arlionn@163.com" class="email">arlionn@163.com</a>。</p>
-<div style="display: flex; justify-content: space-between;">
-<p><a href="https://book.lianxh.cn/stata101/index.html"> <img style="width: 250px" src="https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/stata101-front.png"> </a></p>
-<p><a href="https://book.lianxh.cn/ds/index.html"> <img style="width: 260px" src="https://book.lianxh.cn/ds/images/ds-book-front.png"> </a></p>
-<p><a href="https://lianxhcn.github.io/quarto_book/"> <img style="width: 248px" src="https://lianxhcn.github.io/quarto_book/images/book-front.png"> </a></p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
 </div>
-<section id="stata" class="level2">
-<h2 class="anchored" data-anchor-id="stata">Stata</h2>
-<ul>
-<li>连玉君，2025，<a href="https://book.lianxh.cn/stata101/index.html">Stata 101</a> | <a href="https://www.lianxh.cn/details/1095.html">课件下载</a>
-<ul>
-<li>观看配套视频：<a href="https://lianxh-class.cn/view/1527932289698443345">连享会视频课堂</a> | <a href="https://space.bilibili.com/546535876/channel/seriesdetail?sid=684350">B 站</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="python" class="level2">
-<h2 class="anchored" data-anchor-id="python">Python</h2>
-<ul>
-<li>连玉君, 2025, <a href="https://book.lianxh.cn/ds/index.html">数据分析与 Python 应用</a>
-<ul>
-<li>我教授的数据分析与经济决策课程的讲义，还很粗糙。</li>
-</ul></li>
-</ul>
-</section>
-<section id="quarto-book" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-book">Quarto book</h2>
-<ul>
-<li>连玉君，2025，<a href="https://lianxhcn.github.io/quarto_book/">quarto book</a>。
-<ul>
-<li>这本书介绍了如何使用 Quarto+Github，编写在线笔记和教程。你无须申请域名，只需下载我提供的模版，添加你自己的书稿或笔记内容，运行后通过 github pages 发布你的书稿。整个流程只需要几个小时的时间就可以搞定。</li>
-</ul></li>
-</ul>
-<p> </p>
-<p><img src="https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/Lianxh_装饰黄线.png" class="img-fluid"></p>
-<blockquote class="blockquote">
-<p><a href="https://www.lianxh.cn">主页</a> || <a href="https://www.lianxh.cn/details/17.html">课程</a> || <a href="https://lianxh-class.cn/">视频</a> || <a href="https://www.lianxh.cn/blogs/all.html">推文</a> || <a href="https://www.lianxh.cn/share.html">资料</a></p>
-</blockquote>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1791885269316" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<a href="./gallery/gallery.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 100%;">&nbsp;</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QXV0b21hdGl2ZSUyMENvbG9yZWQlMjBNYXA=" data-listing-date-sort="1788991200000" data-listing-file-modified-sort="1791890204354" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<a href="./gallery/Automative Colored Map/animatedtempmap.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="./gallery/Automative Colored Map/images/Automative Colored Map/animatedtempmap.gif" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -607,11 +639,11 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://github.com/kaokaohty">Tianya HOU</a><br></p>
+<p><a href="https://github.com/kaokaohty">Tianya’s Github</a><br></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/kaokaohty/kaokaohty.github.io/edit/main/books.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/kaokaohty/kaokaohty.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>

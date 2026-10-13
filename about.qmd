@@ -1,5 +1,26 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-连玉君的个人主页
+::: {#hero-heading}
+
+## Speciality
+
+Data Mining, Machine Learning, Network Theory, Data Visualization 
+
+## Education
+
+- Sep 2011 - Sep 2017: PhD in Building and Real Estate, The Hong Kong Polytechnic University, China, specializing in Urban Analytics and Social Data Science
+- Sep 2007 - Sep 2009: Master in Industrial Engineering, Ajou University, Korea, specializting in Data Mining, Machine Learning, Economics
+
+## Exchange Experience
+
+- May 2024 - Oct 2024: Visiting Scholar, Paris Lodron University of Salzburg, Austria
+- Sep 2014 - Mar 2015: Eurasia-Pacific Uninet PhD Program, Vienna University of Economics and Business, Austria
+
+## Teaching Experience
+
+- Sep 2007 - Sep 2009: Teaching Assistant, Ajou University, Korea
+- Sep 2007 - Sep 2009: Lab Instructor, Alpha Data Mining Lab, Korea
+
+:::

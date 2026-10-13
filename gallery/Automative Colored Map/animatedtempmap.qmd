@@ -1,0 +1,13 @@
+---
+title: animatedtempmap
+author: Tianya HOU
+image: images/Automative Colored Map/animatedtempmap.gif
+description: Data Viz Work
+categories: [Automative Colored Map]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](images/Automative Colored Map/animatedtempmap.gif)
