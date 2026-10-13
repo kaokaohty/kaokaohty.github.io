@@ -21,8 +21,6 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
-      - text: "Blogs"
-        href: blogs.qmd
       - text: "Data Viz Gallery"
         href: gallery.qmd
       - text: "CV"

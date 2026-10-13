@@ -1,13 +1,8 @@
 [
   {
-    "listing": "/gallery/gallery.html",
-    "items": []
-  },
-  {
     "listing": "/gallery.html",
     "items": [
-      "/gallery/gallery.html",
-      "/gallery/Automative Colored Map/animatedtempmap.html"
+      "/gallery/Automative_Colored_Map/animatedtempmap.html"
     ]
   }
 ]
