@@ -4,34 +4,28 @@ project:
   
 website:
   page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
-  favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
+  title: "Tianya HOU"
+  site-url: https://github.com/kaokaohty
+  repo-url: https://github.com/kaokaohty/kaokaohty.github.io
   repo-actions: [edit, issue]
   
   page-footer:
     left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
+      [Tianya HOU](https://github.com/kaokaohty)<br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
   navbar: 
-    background: "#A9CCE3"
     search: true
     right: 
       - text: "Home"
         href: index.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Books"
-        href: books.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Blogs"
-        href: blog.qmd
-      - text: "Codes"
-        href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
+        href: blogs.qmd
+      - text: "Data Viz Gallery"
+        href: gallery.qmd
       - text: "CV"
         href: CV.pdf
 
