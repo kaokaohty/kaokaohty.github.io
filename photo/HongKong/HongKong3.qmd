@@ -1,0 +1,12 @@
+---
+title: Hong Kong3
+image: ../../images/photo/HongKong/HongKong3.jpg
+description: Photo
+categories: [Hong Kong China]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/HongKong/HongKong3.jpg)

@@ -1,0 +1,12 @@
+---
+title: Shanghai5
+image: ../../images/photo/Shanghai/Shanghai5.png
+description: Photo
+categories: [Shanghai China]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/Shanghai/Shanghai5.png)

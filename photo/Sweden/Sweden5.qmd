@@ -1,0 +1,12 @@
+---
+title: Sweden5
+image: ../../images/photo/Sweden/Sweden5.jpg
+description: Photo
+categories: [Sweden]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/Sweden/Sweden5.jpg)

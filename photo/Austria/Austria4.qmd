@@ -1,0 +1,12 @@
+---
+title: Austria4
+image: ../../images/photo/Austria/Austria4.jpg
+description: Photo
+categories: [Austria]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/Austria/Austria4.jpg)

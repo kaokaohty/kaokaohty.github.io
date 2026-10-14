@@ -1,0 +1,12 @@
+---
+title: Shanghai4
+image: ../../images/photo/Shanghai/Shanghai4.png
+description: Photo
+categories: [Shanghai China]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/Shanghai/Shanghai4.png)

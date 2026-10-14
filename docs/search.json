@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tianya HOU",
+    "objectID": "photo.html",
+    "href": "photo.html",
+    "title": "Photo",
     "section": "",
-    "text": "tianya.hou@connect.polyu.hk\n  \n\n  \n  \nI’m a Data Scientist & Visualization Specialist who turns complex, high-dimensional data into clear, actionable stories. I build end-to-end predictive models and interactive data visualizations using [Matlab / R / SAS] and [gglot2 / Quarto] to help people make confident, data-driven decisions.\nMy path to data wasn’t linear. I hold a MS in Data Science of Ajou University and a PhD in Building and Real State of The Hong Kong Polytechnic University with the major in Urban Analytics and Social Data Science. This unique combination has honed my abilities in data science skills as well as tackling complex issues by drawing on diverse perspectives and methodologies. I also enjoy translating complex findings for stakeholders as much as doing the analysis itself."
+    "text": "No matching items"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Data Viz Gallery",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "about.html",
@@ -42,10 +49,10 @@
     "text": "Sep 2007 - Sep 2009: Teaching Assistant, Ajou University, Korea\nSep 2007 - Sep 2009: Lab Instructor, Alpha Data Mining Lab, Korea"
   },
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Data Viz Gallery",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tianya HOU",
     "section": "",
-    "text": "No matching items"
+    "text": "tianya.hou@connect.polyu.hk\n  \n\n  \n  \nI’m a Data Scientist & Visualization Specialist who turns complex, high-dimensional data into clear, actionable stories. I build end-to-end predictive models and interactive data visualizations using [Matlab / R / SAS] and [gglot2 / Quarto] to help people make confident, data-driven decisions.\nMy path to data wasn’t linear. I hold a MS in Data Science of Ajou University and a PhD in Building and Real State of The Hong Kong Polytechnic University with the major in Urban Analytics and Social Data Science. This unique combination has honed my abilities in data science skills as well as tackling complex issues by drawing on diverse perspectives and methodologies. I also enjoy translating complex findings for stakeholders as much as doing the analysis itself."
   }
 ]

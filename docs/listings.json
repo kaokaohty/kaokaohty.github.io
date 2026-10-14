@@ -1,5 +1,42 @@
 [
   {
+    "listing": "/photo.html",
+    "items": [
+      "/photo/Austria/Austria1.html",
+      "/photo/Austria/Austria2.html",
+      "/photo/Austria/Austria3.html",
+      "/photo/Austria/Austria4.html",
+      "/photo/Austria/Austria5.html",
+      "/photo/HongKong/HongKong1.html",
+      "/photo/HongKong/HongKong2.html",
+      "/photo/HongKong/HongKong3.html",
+      "/photo/HongKong/HongKong4.html",
+      "/photo/HongKong/HongKong5.html",
+      "/photo/Me/Me1.html",
+      "/photo/Me/Me2.html",
+      "/photo/Shanghai/Shanghai1.html",
+      "/photo/Shanghai/Shanghai2.html",
+      "/photo/Shanghai/Shanghai3.html",
+      "/photo/Shanghai/Shanghai4.html",
+      "/photo/Shanghai/Shanghai5.html",
+      "/photo/Suzhou/Suzhou1.html",
+      "/photo/Suzhou/Suzhou2.html",
+      "/photo/Suzhou/Suzhou3.html",
+      "/photo/Suzhou/Suzhou4.html",
+      "/photo/Suzhou/Suzhou5.html",
+      "/photo/Sweden/Sweden1.html",
+      "/photo/Sweden/Sweden2.html",
+      "/photo/Sweden/Sweden3.html",
+      "/photo/Sweden/Sweden4.html",
+      "/photo/Sweden/Sweden5.html",
+      "/photo/USA/USA1.html",
+      "/photo/USA/USA2.html",
+      "/photo/USA/USA3.html",
+      "/photo/USA/USA4.html",
+      "/photo/USA/USA5.html"
+    ]
+  },
+  {
     "listing": "/gallery.html",
     "items": [
       "/gallery/Automative_Colored_Map/animatedtempmap.html",

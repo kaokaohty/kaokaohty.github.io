@@ -1,0 +1,12 @@
+---
+title: Suzhou1
+image: ../../images/photo/Suzhou/Suzhou1.jpg
+description: Photo
+categories: [Suzhou China]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/Suzhou/Suzhou1.jpg)

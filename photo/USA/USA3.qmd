@@ -1,0 +1,12 @@
+---
+title: USA3
+image: ../../images/photo/USA/USA3.jpg
+description: Photo
+categories: [USA]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/USA/USA3.jpg)

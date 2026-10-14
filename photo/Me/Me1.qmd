@@ -1,0 +1,12 @@
+---
+title: Me1
+image: ../../images/photo/Me/Me1.jpg
+description: Photo
+categories: [Me]
+date: 2026-09-10
+format:
+  html:
+    page-layout: full
+---
+
+![](../../images/photo/Me/Me1.jpg)

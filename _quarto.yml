@@ -23,6 +23,8 @@ website:
         href: about.qmd
       - text: "Data Viz Gallery"
         href: gallery.qmd
+      - text: "Photo"
+        href: photo.qmd
       - text: "CV"
         href: CV.pdf
 
